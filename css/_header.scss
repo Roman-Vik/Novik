@@ -1,0 +1,33 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  border-bottom: 1px solid #828282;
+  position: relative;
+}
+.menu__elem {
+  padding: 30px 0px 31px 0px;
+}
+
+.menu__link {
+  text-decoration: none;
+  line-height: 22.28px;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  color: #828282;
+}
+.menu__m {
+  display: none;
+}
+
+@media (max-width: '1024px') {
+  .menu {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: '580px') {
+  .menu {
+    display: none;
+  }
+}

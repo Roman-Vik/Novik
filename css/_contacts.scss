@@ -1,0 +1,94 @@
+.contacts {
+  padding: 114px 0 123px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacts__text {
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 29px 0;
+  line-height: 22px;
+}
+.contacts__btn {
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-block;
+  background: #070707; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  padding: 13px 30px 13px 30px;
+  border-radius: 30px;
+}
+.contacts__btn:hover {
+  transition: 0.4sec;
+  border: #070707 solid 1px;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-block;
+  background: white; /* Серый цвет фона */
+  color: #070707; /* Белый цвет текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  padding: 13px 30px 13px 30px;
+  border-radius: 30px;
+}
+
+.contacts__links {
+  display: flex;
+  gap: 62px;
+  margin-top: 79px;
+  margin-bottom: 45px;
+}
+
+.contacts__img {
+  width: 40px;
+  height: 40px;
+}
+.contacts__likeMe {
+  font-family: 'Gilroy-Medium';
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  line-height: 17px;
+}
+
+@media (max-width: '550px') {
+  .contacts {
+    padding: 82px 0 90px 0;
+  }
+  .contacts__text {
+    margin: 27px 0 39px 0;
+  }
+  .contacts__links {
+    gap: 52px;
+  }
+
+  .contacts__btn {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+    background: #070707; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 12px 97px 12px 97px;
+    border-radius: 30px;
+  }
+  .contacts__btn:focus {
+    transition: 0.4sec;
+    border: #070707 solid 1px;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+    background: #070707; /* Серый цвет фона */
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    padding: 12px 97px 12px 97px;
+    border-radius: 30px;
+  }
+}

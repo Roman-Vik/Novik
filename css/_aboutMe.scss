@@ -1,0 +1,27 @@
+.aboutMe {
+  background-color: #f6f6f6;
+  padding: 181px 30px 107px 30px;
+}
+.aboutMe__header {
+  text-align: center;
+  padding-bottom: 17px;
+  font-size: 34px;
+}
+.aboutMe__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 45px;
+}
+.aboutMe__text {
+  max-width: 500px;
+  text-align: center;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 21.83px;
+}
+@media (max-width: '600px') {
+  .aboutMe__text {
+    max-width: 450px;
+  }
+}
