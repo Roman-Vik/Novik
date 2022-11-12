@@ -413,18 +413,8 @@ ul li {
     padding: 12px 97px 12px 97px;
     border-radius: 30px;
   }
-  .contacts__btn:focus {
-    transition: 0.4sec;
-    border: #070707 solid 1px;
-    font-family: "Gilroy-Bold";
-    font-size: 18px;
-    line-height: 22px;
-    display: inline-block;
-    background: #070707; /* Серый цвет фона */
-    color: white; /* Белый цвет текста */
-    text-decoration: none; /* Убираем подчёркивание */
+  .contacts__btn:hover {
     padding: 12px 97px 12px 97px;
-    border-radius: 30px;
   }
 }
 .mMenu__check {
